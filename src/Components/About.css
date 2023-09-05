@@ -1,0 +1,80 @@
+
+
+/* Styling for the main container */
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: aliceblue;
+}
+
+/* Styling for the image */
+.about-us-image {
+  
+  border-radius: 40%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  max-width: 300px; 
+  
+  margin-right: 20px;
+}
+
+/* Styling for the description section */
+.about-us-description {
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Styling for headings */
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: rgb(8, 8, 8);
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: rgb(4, 4, 4);
+}
+
+/* Styling for paragraphs */
+.para {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: rgb(8, 8, 8);
+}
+.shivling-section{
+  margin: 10vh 40vh;
+}
+.blink{
+  background: rgb(0, 0, 0);
+  border-radius: 5vh;
+  padding:0vh 5vh;
+}
+.blink p{
+  text-align: center;
+ font-family: Verdana;
+ color: #ffc310;
+ 
+ font-size: 2em;
+}
+
+/* Styling for the attractive component (Assuming it has the class name 'attractive-component') */
+.attractive-component {
+  /* Add your attractive styles here for the component */
+}
+
+/* Styling for the Navbar and Footer (assuming they have respective class names) */
+.navbar {
+  /* Add your styles for the Navbar here */
+}
+
+.footer {
+  /* Add your styles for the Footer here */
+}

@@ -1,0 +1,35 @@
+.imgSlider {
+  background-color: aqua;
+  height: 800px;
+  max-width: 100%;
+  position: relative;
+  background: url("./Assests/Narmada\ river.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+.Imgtxt {
+  font-family: Arial, sans-serif;
+  font-size: 3vh;
+  line-height: 1.8;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top:30vh;
+  
+  
+
+  
+}
+
+
+.Imgtxt::first-letter {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.Imgtxt::before {
+  content: "\1F549";
+  display: block;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
